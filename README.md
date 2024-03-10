@@ -24,8 +24,8 @@ These instructions will get you a copy of the project up and running on your loc
 1. Clone the repository to your local machine:
 
 ```bash
-git clone [repository URL]
-cd [project-directory]
+git clone https://github.com/joy06261985/auction-site-microservices.git
+cd auction-site-microservices
 ```
 2. Install the necessary Python packages:
 ```bash
