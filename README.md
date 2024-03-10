@@ -19,8 +19,43 @@ These instructions will get you a copy of the project up and running on your loc
 - MySQL
 - Redis
 
-### Installation
 
+## Technology Stack
+**Frontend:**
+- Node.js for serving the website  
+- Express.js for the API Gateway  
+- ReactJS / HTML / CSS for website pages  
+**Backend:**
+- Python - Flask  
+- RabbitMQ for microservice communication  
+**Databases:**
+- MySQL - hosted in separate Docker containers (accounts, items, notifications, auctions)  
+- Redis - hosted in Docker container (bidding)  
+
+
+## Features
+- Frontend Functions
+  - User account management (create, delete, suspend, login, logout)
+  - Auction interactions (see active auctions, add item, bid on item, remove item, purchase item)
+- Database Functions
+  - Persistent data storage
+  - Data retrieval for frontend and backend services
+  - CRUD operations on data
+- Admin Functions
+  - Auction and user management (stop auction, remove/block user, modify categories)
+  - View and sort auctions
+  - Examine metrics and customer support emails
+- Auction Functions
+  - Listing, bidding, categorization, and searching of items
+  - Watchlist and notification features
+  - Shopping cart and checkout functionalities
+- User Functions
+  - New user creation, user updates, and account suspension
+  - Item management (list, update, flag, categorize, delete)
+  - Bidding and auction participation
+
+
+### Installation
 1. Clone the repository to your local machine:
 
 ```bash
@@ -47,38 +82,6 @@ bash start_application.sh
 7. Access the application in your browser at [http://localhost:3000]
 
 
-## Technology Stack
-**Frontend:**
-Node.js for serving the website  
-Express.js for the API Gateway  
-ReactJS / HTML / CSS for website pages  
-**Backend:**
-Python - Flask  
-RabbitMQ for microservice communication  
-**Databases:**
-MySQL - hosted in separate Docker containers (accounts, items, notifications, auctions)  
-Redis - hosted in Docker container (bidding)  
-
-## Features
-- Frontend Functions
-  - User account management (create, delete, suspend, login, logout)
-  - Auction interactions (see active auctions, add item, bid on item, remove item, purchase item)
-- Database Functions
-  - Persistent data storage
-  - Data retrieval for frontend and backend services
-  - CRUD operations on data
-- Admin Functions
-  - Auction and user management (stop auction, remove/block user, modify categories)
-  - View and sort auctions
-  - Examine metrics and customer support emails
-- Auction Functions
-  - Listing, bidding, categorization, and searching of items
-  - Watchlist and notification features
-  - Shopping cart and checkout functionalities
-- User Functions
-  - New user creation, user updates, and account suspension
-  - Item management (list, update, flag, categorize, delete)
-  - Bidding and auction participation
 
 ## Authors
 Cole Spruyt  
