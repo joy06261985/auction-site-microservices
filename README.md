@@ -21,13 +21,16 @@ These instructions will get you a copy of the project up and running on your loc
 
 
 ## Technology Stack
+
 **Frontend:**
 - Node.js for serving the website  
 - Express.js for the API Gateway  
-- ReactJS / HTML / CSS for website pages  
+- ReactJS / HTML / CSS for website pages
+
 **Backend:**
 - Python - Flask  
-- RabbitMQ for microservice communication  
+- RabbitMQ for microservice communication
+
 **Databases:**
 - MySQL - hosted in separate Docker containers (accounts, items, notifications, auctions)  
 - Redis - hosted in Docker container (bidding)  
