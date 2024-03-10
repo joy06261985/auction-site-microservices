@@ -58,7 +58,7 @@ These instructions will get you a copy of the project up and running on your loc
   - Bidding and auction participation
 
 
-### Installation
+## Installation
 1. Clone the repository to your local machine:
 
 ```bash
